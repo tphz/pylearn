@@ -5,5 +5,16 @@
             "envManager": "ms-python.python:conda",
             "packageManager": "ms-python.python:conda"
         }
+    ],
+    "cSpell.words": [
+        "flist",
+        "nlist",
+        "nmax",
+        "nmin"
+    ],
+    "cSpell.ignoreRegExpList": [
+        "[a-zA-Z_][a-zA-Z0-9_]{2,}", // 忽略长度大于2的变量名
+        "[A-Z_]{2,}",                // 忽略全大写变量
+        "[a-z]+_[a-z0-9_]+"         // 忽略下划线命名
     ]
 }
