@@ -10,11 +10,29 @@
         "flist",
         "nlist",
         "nmax",
-        "nmin"
+        "nmin",
+        "matplotlib",
+        "pyplot",
+        "rcParams",
+        "seaborn",
+        "linspace",
+        "figsize",
+        "facecolor",
+        "numpy",
+        "scipy",
+        "pandas"
     ],
     "cSpell.ignoreRegExpList": [
-        "[a-zA-Z_][a-zA-Z0-9_]{2,}", // 忽略长度大于2的变量名
-        "[A-Z_]{2,}",                // 忽略全大写变量
-        "[a-z]+_[a-z0-9_]+"         // 忽略下划线命名
-    ]
+        "[a-zA-Z_][a-zA-Z0-9_]{2,}",    // 忽略长度大于2的变量名
+        "[A-Z_]{2,}",                    // 忽略全大写变量
+        "[a-z]+_[a-z0-9_]+",            // 忽略下划线命名
+        "plt\\.[a-zA-Z_]+",             // 忽略 plt.xxx 形式的方法调用
+        "np\\.[a-zA-Z_]+"               // 忽略 np.xxx 形式的方法调用
+    ],
+    "cSpell.ignorePaths": [
+        "**/__pycache__/**",             // 忽略缓存目录
+        "**/.ipynb_checkpoints/**"       // 忽略 Jupyter notebook 检查点
+    ],
+    "cSpell.allowCompoundWords": true,   // 允许复合词
+    "cSpell.language": "en,en-US"        // 设置拼写检查的语言
 }
