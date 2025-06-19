@@ -34,5 +34,6 @@
         "**/.ipynb_checkpoints/**"       // 忽略 Jupyter notebook 检查点
     ],
     "cSpell.allowCompoundWords": true,   // 允许复合词
-    "cSpell.language": "en,en-US"        // 设置拼写检查的语言
+    "cSpell.language": "en,en-US",
+    "editor.fontVariations": false // 设置拼写检查的语言
 }
